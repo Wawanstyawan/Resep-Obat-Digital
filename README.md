@@ -3,22 +3,23 @@
 Instalasi
 Clone repositori ini ke komputer Anda:
 
-bash
-https://github.com/Wawanstyawan/Resep-Obat-Digital.git
+bash<br>
+https://github.com/Wawanstyawan/Resep-Obat-Digital.git <br><br>
+
 Masuk ke direktori proyek:
-
-bash
+<br>
+bash<br>
 <b>cd resep-obat-digital</b>
+<br>
+Install dependensi proyek:<br>
+<b>npm install</b><br><br>
 
-Install dependensi proyek:
-<b>npm install</b>
-
-buat database dan sesuaikan pada file .env
-<b>php artisan migrate</b>
-
+buat database dan sesuaikan pada file .env<br>
+<b>php artisan migrate</b><br>
+<br><br>
 tambahkan db bawaan yaitu <b>obatalkes_m.sql dan signa_m.sql</b>
-
-Jalankan pada terminal
-<b>npm run dev</b>
-dan 
+<br>
+Jalankan pada terminal<br>
+<b>npm run dev</b><br>
+dan <br>
 <b>php artisan serve</b>
